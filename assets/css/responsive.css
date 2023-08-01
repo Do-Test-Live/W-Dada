@@ -639,7 +639,6 @@
         .welcome_areaa {
             background-position: center;
             background-color: #F0F8FE;
-            background-image: none!important;
         }
 
         .single_welcome_slider {
@@ -823,6 +822,7 @@
         .about_page .about_content {
             padding-right: 0;
             padding-bottom: 60px;
+            margin-left: -38px;
         }
 
         .about_page .about_content h1 {

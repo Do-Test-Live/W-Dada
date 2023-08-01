@@ -526,9 +526,12 @@ ul.main_menu>li:hover>ul {
 }
 
 .welcome_areaa {
-    background-position: 0 222px;
+    background-position: 0 -108px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.head1{
+    color: #ffffff;
 }
 
 .welcome_slider .owl-nav>div {
@@ -585,7 +588,11 @@ ul.main_menu>li:hover>ul {
     animation-delay: .5s;
 }
 
-
+@media (max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
 
 
 
@@ -1281,8 +1288,8 @@ span.video_content i {
 }
 
 .about_page .about_content {
-    padding-right: 40px;
     padding-bottom: 110px;
+    padding-left: 45px;
 }
 
 .about_page .about_content h1 {
@@ -3293,6 +3300,7 @@ span.payment1_content {
 .contact_inf_area {
     padding: 30px 20px;
     box-shadow: 0 0 9px rgba(0, 0, 0, 0.14);
+    margin-right: 22px;
 }
 
 
