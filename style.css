@@ -246,7 +246,7 @@ body {
  ====/========        =======/====/*/
 
 .header_top_area {
-    background: #EAF6FF;
+    background: #fbd6d3;
     font-size: 14px;
     color: #515151;
     font-weight: 600;
@@ -259,7 +259,7 @@ a.htr_single_contact {
 }
 
 a.htr_single_contact i {
-    color: #44a6f0;
+    color: #e96c63;
     margin-right: 5px;
 }
 
@@ -373,7 +373,7 @@ form.search_form {
 }
 
 ul.main_menu>li>a:hover {
-    color: #44A6F0;
+    color: #e96c63;
 }
 
 ul.main_menu>li>ul a {
@@ -462,7 +462,7 @@ ul.main_menu>li:hover>ul {
 
 .custom_btn {
     color: #fff;
-    background: #44A6F0;
+    background: #e96c63;
     padding: 15px 30px;
     transition: .3s linear;
     position: relative;
@@ -744,7 +744,7 @@ a.read_btn,
     width: 100%;
     opacity: .95;
     height: 100%;
-    background: #44A6F0;
+    background: #e96c63;
     top: 0;
     left: 0;
     z-index: -1;
@@ -1131,7 +1131,7 @@ footer:after {
     content: "";
     width: 100%;
     height: 100%;
-    background: #44A6F0;
+    background: #000000e6;
     top: 0;
     z-index: -1;
     opacity: .94;
@@ -1205,7 +1205,7 @@ footer:after {
     text-align: center;
     padding: 20px 0;
     color: #fff;
-    border-top: 1px solid #3597E1;
+    border-top: 1px solid #e96c63;
 }
 
 .copyright_area a {
@@ -2102,7 +2102,7 @@ ul.doctor_data li {
 
 .isotope_menu li.active a,
 .isotope_menu a:hover {
-    background: #44A6F0;
+    background: #ea7169;
     color: #fff;
 }
 
@@ -2114,7 +2114,7 @@ ul.doctor_data li {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(68, 166, 240, 0.6);
+    background: rgb(234 113 105 / 65%);
     top: 0;
     left: 0;
     color: #fff;
@@ -4798,7 +4798,7 @@ a.v4.read_btn:hover {
     height: 44px;
     background: rgba(33, 33, 33, .32);
     text-align: center;
-    border=rad:;
+    border:red;
     line-height: 44px;
     border-radius: 50%;
 }
