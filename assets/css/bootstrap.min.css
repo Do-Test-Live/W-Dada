@@ -635,8 +635,6 @@ pre code {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px
 }
 
 .no-gutters {
@@ -2319,7 +2317,7 @@ select.form-control:focus::-ms-value {
     display: inline-block;
     font-weight: 400;
     text-align: center;
-    white-space: nowrap;
+    white-space: wrap;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -2812,12 +2810,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #007bff;
+    color: #ea7169;
     background-color: transparent
 }
 
 .btn-link:hover {
-    color: #0056b3;
+    color: #565656;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent

@@ -201,7 +201,7 @@ h3,
 h4,
 h5,
 h6{
-    color: #565656
+    color: #273353;
 }
 ul {
     padding: 0;
@@ -471,6 +471,7 @@ ul.main_menu>li:hover>ul {
     overflow: hidden;
     text-align: center;
     min-width: 180px;
+    border-radius: 15px
 }
 
 .custom_btn:after {
@@ -508,6 +509,7 @@ ul.main_menu>li:hover>ul {
 
 .welcome_content a.custom_btn {
     margin-top: 25px;
+    border-radius: 15px;
 }
 
 .welcome_content {
@@ -712,7 +714,7 @@ a.read_btn,
 }
 
 .about_content li i {
-    color: #44A6F0;
+    color: #ea7169;
     font-size: 18px;
     line-height: 1;
     position: absolute;
@@ -800,7 +802,7 @@ a.read_btn,
 }
 
 .about_slide .owl-dots>div.active {
-    background: #44A6F2;
+    background:rgb(234 113 105);
 }
 
 .about_area {
@@ -1284,7 +1286,7 @@ span.video_content i {
 }
 
 .about_page {
-    padding: 90px 0 100px;
+    padding: 100px 0 0;
 }
 
 .about_page .about_content {
@@ -2145,7 +2147,7 @@ ul.doctor_data li {
 }
 
 .gallery_area {
-    padding: 90px 0;
+    padding: 90px 0 0 0;
 }
 
 .gallery_v2 .gallery_hover_content {
@@ -3328,7 +3330,7 @@ span.payment1_content {
 }
 
 .contact_page_area {
-    padding: 100px 0;
+    padding: 0 0 100px;
 }
 
 

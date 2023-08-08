@@ -806,7 +806,7 @@
 
 
         .about_page {
-            padding: 60px 0;
+            padding: 60px 0 0 0;
         }
 
         a.video_popup:after {
@@ -1094,11 +1094,11 @@
             text-align: center;
         }
         .gallery_area {
-            padding: 60px 0;
+            padding: 60px 0 0 0;
         }
 
         .contact_page_area {
-            padding: 60px 0;
+            padding: 0 0 100px 0;
         }
         .map {
             height: 300px;
