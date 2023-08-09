@@ -356,11 +356,14 @@ ul.main_menu>li ul {
 }
 
 ul.main_menu>li>a {
-    color: #565656;
+    color: #273353;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 15px;
     transition: .3s linear;
+}
+.head2{
+    color: #828690;
 }
 
 form.search_form {
@@ -531,9 +534,17 @@ ul.main_menu>li:hover>ul {
     background-position: 0 -108px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -83px;
+    z-index: 5;
 }
 .head1{
     color: #ffffff;
+}
+.head4{
+    z-index: 6;
+    position: relative;
+
+
 }
 
 .welcome_slider .owl-nav>div {
@@ -727,6 +738,13 @@ a.read_btn,
     padding-left: 56%;
     position: relative;
 }
+.tablecolor{
+    background-color: #192136;
+    height: 485px;
+}
+.head3{
+    height: 485px;
+}
 
 .working_box {
     position: relative;
@@ -806,7 +824,7 @@ a.read_btn,
 }
 
 .about_area {
-    padding: 100px 0 135px;
+    padding: 50px 0 50px;
     background-position: bottom right;
     background-repeat:  no-repeat;
 }
@@ -1286,7 +1304,7 @@ span.video_content i {
 }
 
 .about_page {
-    padding: 100px 0 0;
+    padding: 50px 0 0;
 }
 
 .about_page .about_content {
@@ -2093,7 +2111,7 @@ ul.doctor_data li {
 }
 
 .isotope_menu a {
-    color: #565656;
+    color: #273353;
     font-weight: 700;
     font-family: unna;
     margin-bottom: 75px;
