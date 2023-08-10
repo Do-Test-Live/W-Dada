@@ -357,7 +357,7 @@ ul.main_menu>li ul {
 
 ul.main_menu>li>a {
     color: #273353;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     padding: 10px 15px;
     transition: .3s linear;
@@ -607,7 +607,15 @@ ul.main_menu>li:hover>ul {
     }
 }
 
+@media only screen and (max-width: 992px){
 
+    .tablecolor {
+        background-color: #192136 !important;
+        height: 640px !important;
+        margin-top: 17px;
+
+    }
+}
 
 
 
@@ -740,10 +748,15 @@ a.read_btn,
 }
 .tablecolor{
     background-color: #192136;
-    height: 485px;
+    height: 550px;
 }
 .head3{
-    height: 485px;
+    height: 550px;
+}
+.head5{
+    color: white;
+    padding-top: 47px;
+    padding-left: 16px;
 }
 
 .working_box {
