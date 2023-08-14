@@ -2244,7 +2244,6 @@ ul.doctor_data li {
 
 .testimonial_title {
     position: relative;
-    padding-left: 69px;
     padding-top: 5px;
     margin-bottom: 35px;
 }
@@ -2263,6 +2262,17 @@ ul.doctor_data li {
 
 .primary_testimonial_item_wrpaer {
     padding: 10px 15px;
+}
+.single-line-list {
+    display: flex; /* Use flexbox to align items horizontally */
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+.single-line-list li {
+    margin-right: 10px; /* Add spacing between items */
+    color: #fec42d;
+    padding-bottom: 10px;
 }
 
 
@@ -2296,7 +2306,7 @@ ul.doctor_data li {
 
 .primary_testimonial_slider {
     padding-bottom: 70px;
-    margin: 0 -15px;
+    margin-bottom: 50px;
 }
 
 .testimonial_title.bottom {
