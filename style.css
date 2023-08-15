@@ -153,6 +153,7 @@ Home 1
     padding: 0;
     margin: 0;
     outline: none;
+    font-size: 18px;
 }
 
 a,
@@ -234,6 +235,17 @@ body {
     transform: translateY(-50%) translatex(-50%);
 }
 
+.footer-wp{
+    flex-grow: 1;
+    position: relative;
+}
+.bottom-right-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
 
 
 /*====/========        ===== ==/====/
@@ -264,7 +276,7 @@ a.htr_single_contact i {
 }
 
 .htr a {
-    font-size: 14px;
+    font-size: 18px;
     color: #515151;
 }
 
@@ -614,6 +626,16 @@ ul.main_menu>li:hover>ul {
         height: 640px !important;
         margin-top: 17px;
 
+    }
+    .footer-wp{
+        flex-grow: 1;
+        position: relative;
+    }
+    .bottom-right-image {
+        position: fixed;
+        bottom: 10px;
+        right: -18px;
+        z-index: 999;
     }
 }
 
