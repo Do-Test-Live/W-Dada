@@ -504,6 +504,10 @@ ul.main_menu>li:hover>ul {
     transform: translatex(-50%) translateY(-50%);
     border-radius: 19%;
 }
+.btn2{
+    margin-left: 850px;
+    padding-bottom: 70px;
+}
 
 .custom_btn:hover:after {
     left: 50%;
@@ -617,6 +621,10 @@ ul.main_menu>li:hover>ul {
 @media (max-width: 767px) {
     .hidden-mobile {
         display: none;
+    }
+    .btn2{
+        margin-left: 114px;
+        padding-bottom: 70px;
     }
 }
 
@@ -809,12 +817,26 @@ a.read_btn,
 
 .about_slide {
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     width: 56%;
     padding-right: 30px;
     height: 100%;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 550px) {
+    .about_slide {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 56%;
+        padding-right: 30px;
+        height: 100%;
+    }
+}
+
+
 
 .working_box h4 {
     font-weight: bold;
@@ -2202,7 +2224,7 @@ ul.doctor_data li {
 }
 
 .gallery_area {
-    padding: 90px 0 0 0;
+    padding: 25px 0 0 0;
 }
 
 .gallery_v2 .gallery_hover_content {
@@ -2329,7 +2351,7 @@ ul.doctor_data li {
 }
 
 .primary_testimonial_slider {
-    padding-bottom: 70px;
+    padding-bottom: 20px;
     margin-bottom: 50px;
 }
 
