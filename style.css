@@ -622,10 +622,6 @@ ul.main_menu>li:hover>ul {
     .hidden-mobile {
         display: none;
     }
-    .btn2{
-        margin-left: 114px;
-        padding-bottom: 70px;
-    }
 }
 
 @media only screen and (max-width: 992px){
@@ -646,6 +642,13 @@ ul.main_menu>li:hover>ul {
         right: 5px;
         z-index: 999;
         width: 70px;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .btn2{
+        margin-left: 114px;
+        padding-bottom: 70px;
     }
 }
 
