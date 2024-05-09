@@ -79,7 +79,7 @@ if(!isset($_SESSION['lan'])){
                         <img src="assets/img/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-lg-10 text-center col-6">
+                <div class="col-lg-8 text-center col-6">
                     <nav class="menu_bar">
                         <ul class="main_menu">
                             <li><a href="index.php#company_profile"><?php if($_SESSION['lan'] == 'CN') echo '公司簡介'; else echo ' Company Introduction'?></a></li>
@@ -100,6 +100,9 @@ if(!isset($_SESSION['lan'])){
                             </div>
                         </ul>
                     </nav>
+                </div>
+                <div class="col-lg-2 text-center my-auto">
+                    <p style="font-weight: bold; color: #e96c63;" class="mt-3"><?php if($_SESSION['lan'] == 'CN') echo '*本公司絕不向客人收取小費 *'; else echo 'DaDa Transportation will never charge any tips from guests'?></p>
                 </div>
             </div>
         </div>
@@ -181,6 +184,8 @@ if(!isset($_SESSION['lan'])){
                             <li><i class="zmdi zmdi-play-circle"></i><?php if($_SESSION['lan'] == 'CN') echo '其他範疇歡迎查詢'; else echo 'Contact us for other moving service'?></li>
                         </ul>
                         <p class="head2"><?php if($_SESSION['lan'] == 'CN') echo '本公司由經驗豐富的團隊負責各項搬運，所有員工均接受過專業訓練，態度親切有禮，服務貼心，確保不碰撞，不掉落，不腳踩，不拖拉，保証將每件物品視同己物。我們亦提供免費報價及包裝服務，務求令所有家具、電器及用品都能安全到達目的地。確保閣下的物品不會損壞，以及搬運進行順利。本公司質素高、收費廉、口碑好、服務佳、絕無敲詐、紀律嚴明。估價員與客人議妥後，絕不加價。歡迎各位垂詢，提防影射及假冒。'; else echo 'Our professional moving team are all well-trained, with a sincere attitude plus excellent service. We provided free quotation service and professional packing service and ensured all your furniture and appliances are well protected by our careful packing. Make sure all your stuff, furniture and appliances will arrive your new premise safely and properly. We treat all your belongings well, give extreme care and avoid any damage, once our customers agree with our quoted price and terms, we won’t raise the price afterward.'?></p>
+                        <p style="font-weight: bold; color: #e96c63;" class="mt-3"><?php if($_SESSION['lan'] == 'CN') echo '*本公司絕不向客人收取小費 *'; else echo 'DaDa Transportation will never charge any tips from guests'?></p>
+
 
                     </div>
                 </div>
