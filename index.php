@@ -102,7 +102,7 @@ if(!isset($_SESSION['lan'])){
                     </nav>
                 </div>
                 <div class="col-lg-2 text-center my-auto">
-                    <p style="font-weight: bold; color: #e96c63;" class="mt-3"><?php if($_SESSION['lan'] == 'CN') echo '*本公司絕不向客人收取小費 *'; else echo 'DaDa Transportation will never charge any tips from guests'?></p>
+                    <p style="font-weight: bold; color: #e96c63;" class="mt-3"><?php if($_SESSION['lan'] == 'CN') echo '*本公司謝絕向客人收取小費*'; else echo 'DaDa Transportation will never charge any tips from guests'?></p>
                 </div>
             </div>
         </div>
